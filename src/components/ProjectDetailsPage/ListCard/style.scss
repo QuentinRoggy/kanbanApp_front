@@ -1,0 +1,28 @@
+.cardList_container {
+  width: 25rem;
+
+  .cardList_header {
+    padding: 1rem;
+    background-color: rgb(207, 193, 126);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .icon {
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .icon:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  .cardList_content {
+    height: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}
